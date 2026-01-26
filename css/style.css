@@ -1,0 +1,204 @@
+/*-------------------
+Générique
+-------------------*/
+
+html{
+
+box-sizing: border-box;
+
+}
+
+*,*::before,*::after{
+
+box-sizing: inherit;
+
+}
+
+/*-------------------
+Éléments
+-------------------*/
+
+body{
+
+padding: 0;
+margin: 0;
+ font-family: "Roboto", sans-serif;
+ font-size: 18px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 7.2px;
+    margin: 0;
+    text-align: center;
+}
+
+h2{
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin: 0;
+
+}
+
+h3{
+    font-size: 36px;
+
+    font-weight: normal;
+
+    margin: 10px 0;
+
+}
+
+/*-------------------
+Components
+-------------------*/
+
+.wrapper{
+
+max-width: 1080px;
+
+margin:0 auto;
+
+}
+
+/*header*/
+
+.header{
+background-color: #f26c25;
+color: white;
+
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.header .wrapper{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+
+    list-style-type: none;
+}
+
+.menu a:hover{
+
+text-decoration: underline;
+
+}
+
+/*hero*/
+
+.hero{
+    background-color: #eee;
+
+    padding-top: 80px;
+
+    padding-bottom: 80px;
+}
+
+.titre-section{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #eee;
+
+    padding: 20px;
+
+    margin-bottom: 60px;
+
+}
+
+.transports{
+
+    padding-top:80px;
+
+    padding-bottom: 80px;
+
+}
+
+.conteneur-transports{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.transport{
+    text-align: center;
+}
+
+.transport p{
+
+    margin-top: 5px;
+}
+
+/*footer*/
+
+.menu-social a{
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-social{
+
+    display: flex;
+    gap: 20px;
+
+    list-style-type: none;
+}
+
+.footer{
+
+    background-color: black;
+    color: white;
+}
+
+.facebook a:hover{
+    background-color: blue;
+}
+
+.twitter a:hover{
+    background-color: blue;
+}
+
+.in a:hover{
+
+    background-color: blue;
+}
+
+.conteneur-transport-invisible{
+    display: none;
+}
