@@ -2,15 +2,17 @@
 Générique
 -------------------*/
 
-html{
+html {
 
-box-sizing: border-box;
+    box-sizing: border-box;
 
 }
 
-*,*::before,*::after{
+*,
+*::before,
+*::after {
 
-box-sizing: inherit;
+    box-sizing: inherit;
 
 }
 
@@ -18,21 +20,21 @@ box-sizing: inherit;
 Éléments
 -------------------*/
 
-body{
+body {
 
-padding: 0;
-margin: 0;
- font-family: "Roboto", sans-serif;
- font-size: 18px;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
 
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-h1{
+h1 {
     font-size: 36px;
     font-weight: 300;
     letter-spacing: 7.2px;
@@ -40,7 +42,7 @@ h1{
     text-align: center;
 }
 
-h2{
+h2 {
     font-size: 18px;
 
     font-weight: bold;
@@ -49,7 +51,7 @@ h2{
 
 }
 
-h3{
+h3 {
     font-size: 36px;
 
     font-weight: normal;
@@ -62,25 +64,25 @@ h3{
 Components
 -------------------*/
 
-.wrapper{
+.wrapper {
 
-max-width: 1080px;
+    max-width: 1080px;
 
-margin:0 auto;
+    margin: 0 auto;
 
 }
 
 /*header*/
 
-.header{
-background-color: #f26c25;
-color: white;
+.header {
+    background-color: #f26c25;
+    color: white;
 
-padding-top: 10px;
-padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.header .wrapper{
+.header .wrapper {
 
     display: flex;
     justify-content: space-between;
@@ -88,7 +90,7 @@ padding-bottom: 10px;
 
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -98,22 +100,22 @@ padding-bottom: 10px;
     color: white;
 }
 
-.menu{
+.menu {
     display: flex;
     gap: 40px;
 
     list-style-type: none;
 }
 
-.menu a:hover{
+.menu a:hover {
 
-text-decoration: underline;
+    text-decoration: underline;
 
 }
 
 /*hero*/
 
-.hero{
+.hero {
     background-color: #eee;
 
     padding-top: 80px;
@@ -121,7 +123,7 @@ text-decoration: underline;
     padding-bottom: 80px;
 }
 
-.titre-section{
+.titre-section {
 
     display: flex;
     justify-content: space-between;
@@ -135,44 +137,44 @@ text-decoration: underline;
 
 }
 
-.transports{
+.transports {
 
-    padding-top:80px;
+    padding-top: 80px;
 
     padding-bottom: 80px;
 
 }
 
-.conteneur-transports{
+.conteneur-transports {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
 }
 
-.transport{
+.transport {
     text-align: center;
 }
 
-.transport p{
+.transport p {
 
     margin-top: 5px;
 }
 
 /*footer*/
 
-.menu-social a{
+.menu-social a {
     display: block;
     width: 32px;
     height: 32px;
 }
 
-.footer .wrapper{
+.footer .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.menu-social{
+.menu-social {
 
     display: flex;
     gap: 20px;
@@ -180,25 +182,25 @@ text-decoration: underline;
     list-style-type: none;
 }
 
-.footer{
+.footer {
 
     background-color: black;
     color: white;
 }
 
-.facebook a:hover{
+.facebook a:hover {
     background-color: blue;
 }
 
-.twitter a:hover{
+.twitter a:hover {
     background-color: blue;
 }
 
-.in a:hover{
+.in a:hover {
 
     background-color: blue;
 }
 
-.conteneur-transport-invisible{
+.conteneur-transport-invisible {
     display: none;
 }
